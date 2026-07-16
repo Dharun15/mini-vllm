@@ -1,0 +1,10 @@
+# config.py
+
+MODEL_NAME = "Qwen/Qwen2.5-0.5B-Instruct"
+
+DEVICE = "cuda"
+
+DEFAULT_MAX_NEW_TOKENS = 128
+DEFAULT_TEMPERATURE = 0.7
+
+TRUST_REMOTE_CODE = True
